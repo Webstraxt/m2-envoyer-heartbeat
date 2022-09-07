@@ -1,5 +1,5 @@
 {
-    "name": "webstraxt/module-envoyerheartbeat",
+    "name": "webstraxt/m2-envoyer-heartbeat",
     "description": "A simple module to send heartbeats to Envoyer",
     "type": "magento2-module",
     "license": "proprietary",
