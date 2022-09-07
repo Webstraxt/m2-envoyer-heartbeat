@@ -1,0 +1,28 @@
+{
+    "name": "webstraxt/module-envoyerheartbeat",
+    "description": "A simple module to send heartbeats to Envoyer",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Webstraxt Limited",
+            "email": "dev@webstraxt.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Webstraxt\\EnvoyerHeartbeat\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
